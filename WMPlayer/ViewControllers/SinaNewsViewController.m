@@ -12,7 +12,6 @@
  */
 
 #import "SinaNewsViewController.h"
-#import "SecondViewController.h"
 #import "SidModel.h"
 #import "VideoCell.h"
 #import "VideoModel.h"
