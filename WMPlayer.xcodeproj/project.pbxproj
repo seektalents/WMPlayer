@@ -76,7 +76,6 @@
 		70C8ED881C5F92E900B0DE61 /* SinaNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C8ED261C5F92E900B0DE61 /* SinaNewsViewController.xib */; };
 		70C8ED891C5F92E900B0DE61 /* TencentNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8ED281C5F92E900B0DE61 /* TencentNewsViewController.m */; };
 		70C8ED8A1C5F92E900B0DE61 /* TencentNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C8ED291C5F92E900B0DE61 /* TencentNewsViewController.xib */; };
-		70C8ED8B1C5F92E900B0DE61 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8ED2B1C5F92E900B0DE61 /* ThirdViewController.m */; };
 		70C8ED8C1C5F92E900B0DE61 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8ED2F1C5F92E900B0DE61 /* MASCompositeConstraint.m */; };
 		70C8ED8D1C5F92E900B0DE61 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8ED321C5F92E900B0DE61 /* MASConstraint.m */; };
 		70C8ED8E1C5F92E900B0DE61 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8ED341C5F92E900B0DE61 /* MASConstraintMaker.m */; };
@@ -209,8 +208,6 @@
 		70C8ED271C5F92E900B0DE61 /* TencentNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentNewsViewController.h; sourceTree = "<group>"; };
 		70C8ED281C5F92E900B0DE61 /* TencentNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TencentNewsViewController.m; sourceTree = "<group>"; };
 		70C8ED291C5F92E900B0DE61 /* TencentNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TencentNewsViewController.xib; sourceTree = "<group>"; };
-		70C8ED2A1C5F92E900B0DE61 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		70C8ED2B1C5F92E900B0DE61 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		70C8ED2E1C5F92E900B0DE61 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		70C8ED2F1C5F92E900B0DE61 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		70C8ED301C5F92E900B0DE61 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -499,8 +496,6 @@
 				70C8ED271C5F92E900B0DE61 /* TencentNewsViewController.h */,
 				70C8ED281C5F92E900B0DE61 /* TencentNewsViewController.m */,
 				70C8ED291C5F92E900B0DE61 /* TencentNewsViewController.xib */,
-				70C8ED2A1C5F92E900B0DE61 /* ThirdViewController.h */,
-				70C8ED2B1C5F92E900B0DE61 /* ThirdViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -640,7 +635,6 @@
 			files = (
 				70C8ED7A1C5F92E900B0DE61 /* UIImage+GIF.m in Sources */,
 				70C8ED861C5F92E900B0DE61 /* SecondViewController.m in Sources */,
-				70C8ED8B1C5F92E900B0DE61 /* ThirdViewController.m in Sources */,
 				70C8ED6A1C5F92E900B0DE61 /* MJRefreshNormalHeader.m in Sources */,
 				70C8ED6B1C5F92E900B0DE61 /* MJRefreshStateHeader.m in Sources */,
 				70C8ED691C5F92E900B0DE61 /* MJRefreshGifHeader.m in Sources */,
@@ -807,7 +801,7 @@
 				INFOPLIST_FILE = WMPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wenming.WMPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seektalents.WMPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -820,7 +814,7 @@
 				INFOPLIST_FILE = WMPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wenming.WMPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seektalents.WMPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
