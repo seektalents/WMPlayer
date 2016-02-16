@@ -71,7 +71,6 @@
 		70C8ED831C5F92E900B0DE61 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8ED1E1C5F92E900B0DE61 /* DetailViewController.m */; };
 		70C8ED841C5F92E900B0DE61 /* NetEaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8ED201C5F92E900B0DE61 /* NetEaseViewController.m */; };
 		70C8ED851C5F92E900B0DE61 /* NetEaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C8ED211C5F92E900B0DE61 /* NetEaseViewController.xib */; };
-		70C8ED861C5F92E900B0DE61 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8ED231C5F92E900B0DE61 /* SecondViewController.m */; };
 		70C8ED871C5F92E900B0DE61 /* SinaNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8ED251C5F92E900B0DE61 /* SinaNewsViewController.m */; };
 		70C8ED881C5F92E900B0DE61 /* SinaNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C8ED261C5F92E900B0DE61 /* SinaNewsViewController.xib */; };
 		70C8ED891C5F92E900B0DE61 /* TencentNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8ED281C5F92E900B0DE61 /* TencentNewsViewController.m */; };
@@ -200,8 +199,6 @@
 		70C8ED1F1C5F92E900B0DE61 /* NetEaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetEaseViewController.h; sourceTree = "<group>"; };
 		70C8ED201C5F92E900B0DE61 /* NetEaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetEaseViewController.m; sourceTree = "<group>"; };
 		70C8ED211C5F92E900B0DE61 /* NetEaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetEaseViewController.xib; sourceTree = "<group>"; };
-		70C8ED221C5F92E900B0DE61 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		70C8ED231C5F92E900B0DE61 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		70C8ED241C5F92E900B0DE61 /* SinaNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaNewsViewController.h; sourceTree = "<group>"; };
 		70C8ED251C5F92E900B0DE61 /* SinaNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaNewsViewController.m; sourceTree = "<group>"; };
 		70C8ED261C5F92E900B0DE61 /* SinaNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinaNewsViewController.xib; sourceTree = "<group>"; };
@@ -488,8 +485,6 @@
 				70C8ED1F1C5F92E900B0DE61 /* NetEaseViewController.h */,
 				70C8ED201C5F92E900B0DE61 /* NetEaseViewController.m */,
 				70C8ED211C5F92E900B0DE61 /* NetEaseViewController.xib */,
-				70C8ED221C5F92E900B0DE61 /* SecondViewController.h */,
-				70C8ED231C5F92E900B0DE61 /* SecondViewController.m */,
 				70C8ED241C5F92E900B0DE61 /* SinaNewsViewController.h */,
 				70C8ED251C5F92E900B0DE61 /* SinaNewsViewController.m */,
 				70C8ED261C5F92E900B0DE61 /* SinaNewsViewController.xib */,
@@ -634,7 +629,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C8ED7A1C5F92E900B0DE61 /* UIImage+GIF.m in Sources */,
-				70C8ED861C5F92E900B0DE61 /* SecondViewController.m in Sources */,
 				70C8ED6A1C5F92E900B0DE61 /* MJRefreshNormalHeader.m in Sources */,
 				70C8ED6B1C5F92E900B0DE61 /* MJRefreshStateHeader.m in Sources */,
 				70C8ED691C5F92E900B0DE61 /* MJRefreshGifHeader.m in Sources */,
